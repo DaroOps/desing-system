@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-        <NavBar className="App__nav" routes={routes}/>
+        <NavBar className="App__nav" title={"Desing System"} routes={routes}/>
         <Routes>
             <Route path = '/home' Component={Home}/>
             <Route path = '/catalog' Component={Catalog}/>

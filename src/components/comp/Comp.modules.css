@@ -1,4 +1,10 @@
 .comp{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.comp__element{
     height: 100%;
     width: 100%;
     background-color: rgb(240, 248, 255);
@@ -7,3 +13,19 @@
     align-items: center;
     justify-content: center;
 }
+
+.comp__information{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comp__information > h2{
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+
+
+
